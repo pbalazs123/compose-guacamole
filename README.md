@@ -4,9 +4,9 @@
 but can be difficult to setup properly. The deployment  process can be greatly
 simplified using docker containers, and orchestrated using `docker-compose`.
 
-This is a sample configuration for `docker-compose` that puts together all the components needed to deploy guacamole in a containerized environment. I merely fixed it and updated it to the newer official containers as of November 2017.
+This is a sample configuration for `docker-compose` that puts together all the components needed to deploy guacamole in a containerized environment. Updated to the newest official containers as of April 2021.
 
-This is currently version-pinned to `0.9.12-incubating`, since the database `Dockerfile` requires the client repository to be properly tagged to extract the database schema, and at the time of this writing there wasn't a newer tag.
+This is currently version-pinned to `glyptodon/2.4`, since the database `Dockerfile` requires the client repository to be properly tagged to extract the database schema, and at the time of this writing there wasn't a newer tag.
 
 ## Usage
 
