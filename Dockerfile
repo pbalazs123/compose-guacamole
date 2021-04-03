@@ -1,6 +1,6 @@
 # Guacamole database container using MySQL
 #
-# VERSION 0.1
+# VERSION 0.2
 
 FROM mysql
 
